@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-// import dotenv from "dotenv"
 import './App.css';
 import './Styles/main.css';
 import QuoteBox from './Components/QuoteBox';
 import Spinner from 'react-bootstrap/Spinner';
-// dotenv.config()
 
 function App() {
   const [data, setData] = useState(null);
